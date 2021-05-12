@@ -8,11 +8,13 @@
     "pg-hstore": "^2.3.3",
     "sequelize": "^6.6.2"
   },
+  "scripts": {
+    "make-model": "npx sequelize-cli model:generate --name user --attributes email:string",
+    "migrate": "npx sequelize-cli db:migrate",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "devDependencies": {
     "sequelize-cli": "^6.2.0"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC"

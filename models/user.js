@@ -17,7 +17,7 @@ module.exports = (sequelize, DataTypes) => {
     email: DataTypes.STRING
   }, {
     sequelize,
-    modelName: 'User',
+    modelName: 'User',   //changed to lower case to avoid problems with the ORM 
   });
   return User;
 };
