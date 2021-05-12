@@ -85,6 +85,6 @@ module.exports = {
     });
   },
   down: async (queryInterface, Sequelize) => {
-    await queryInterface.dropAllTables();
+    await queryInterface.dropAllTables();   // For drop all datables 
   }
 };
