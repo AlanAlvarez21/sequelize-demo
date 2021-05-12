@@ -1,4 +1,4 @@
-# sequelize-demo
+# sequelize-postgres-nodejs-demo
 Sequelize migrations and seeders demo
 
 $ npx sequelize-cli model:generate --name user --attributes email:string
